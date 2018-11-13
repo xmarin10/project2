@@ -1,0 +1,12 @@
+@font-face {
+    font-family: got;
+    src: url(got.ttf);
+}
+body {
+	background-color: #787878;
+}
+h1 {
+	text-align: center;
+	font-family: got;
+	color: #000000;
+}

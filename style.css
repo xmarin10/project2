@@ -1,0 +1,46 @@
+@font-face {
+    font-family: got;
+    src: url(got.ttf);
+}
+body {
+	background-color: #787878;
+}
+h1 {
+	text-align: center;
+	font-family: got;
+	color: #000000;
+}
+h2 {
+	text-align: center;
+	font-family: 'Cinzel', serif
+}
+.menu {
+	display: grid;
+	border: medium solid #ffffff;
+	height: 60px;
+	width: 100%;
+	font-family: 'Cinzel', serif
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.homeintro {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cinzel', serif
+}
