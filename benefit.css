@@ -10,3 +10,40 @@ h1 {
 	font-family: got;
 	color: #000000;
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #787878;
+	padding: 10px;
+	grid-row-gap: 50px;
+	grid-column-gap: 50px;
+}
+.menu {
+	display: grid;
+	border: medium solid #ffffff;
+	height: 60px;
+	width: 100%;
+	font-family: 'Cinzel', serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.reason {
+	text-align: left;
+	font-family: 'Cinzel', serif;
+}
